@@ -17,4 +17,4 @@ A responsive food delivery website built using **HTML5** and **CSS3**. This proj
 
 ## Author
 
-**Sidhant Goyal**
+**Sidhant Kumar Goyal**
