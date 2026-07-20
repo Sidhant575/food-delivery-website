@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* CSS Variables */
 
 
@@ -11,7 +15,7 @@
 #navbar{
     display: flex;
     align-items: center;
-    position: relative;
+    position: sticky;
     top: 0px;
 }
 
@@ -115,7 +119,8 @@
 }
 
 #services .box img{
-    height: 160px;
+    /* height: 160px; */
+    width: 130px;
     margin: auto;
     display: block;
 }
@@ -128,7 +133,7 @@
 /* Clients Section  */
 
 #client-seciton{
-    height: 344px;
+    
 }
 
 #client-section::before{
@@ -136,7 +141,7 @@
     background: url('../img/img3.jpg')  no-repeat center/cover;
     position: absolute;
     width: 100%;
-    height: 41%;
+    height: 100%;
     z-index: -1;
     opacity: 0.2;    
 }
@@ -153,6 +158,7 @@
 
 #clients img{
     height: 124px;
+    
 }
 
 
